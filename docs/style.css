@@ -23,6 +23,11 @@ header {
 
 .logo {
     height: 100px;
+
+    height: 100px;       /* mantém proporcional */
+    border-radius: 50%;  /* deixa redonda */
+    object-fit: cover;   /* evita distorções */
+    
 }
 
 nav ul {
